@@ -14,9 +14,9 @@ Jasmine برپایه ی رفتار توسعه محور (Behavior Driven Developm
 <h2>چرا Jasmine؟</h2>
 
 <ol>
-<p>•	Jasmine به هیچ چارچوب جاوا اسکریپتی دیگری وابسته نیست و میتواند در تمام محیط ها مورد استفاده قرار بگیرد.</p>
+<p>• به هیچ چارچوب جاوا اسکریپتی دیگری وابسته نیست و میتواند در تمام محیط ها مورد استفاده قرار بگیرد.</p>
 <p>•	به هیچ گونه DOM نیاز ندارد.</p>
-<p>•	syntax آن تمیز و واضح است.</p>
+<p>•	دستورات آن تمیز و واضح است.</p>
 <p>•	یک فریمورک متن باز است و به راحتی در نسخه های مختلف مانند stand-alone, ruby gem, Node.js در دسترس است.</p>
 <p>•	سریع است و سربار کمی دارد و وابستگی خارجی ندارد.</p>
 </ol>
@@ -92,7 +92,7 @@ describe("Adding single number ",function () {
 
 <ul>
 
-<li> ()toEqual.not : بررسی مساوری نبودن</li>
+<li>تابع ()toEqual.not : بررسی مساوری نبودن</li>
 <br>
 <div dir="ltr">
 
@@ -107,12 +107,12 @@ describe("Different Methods of Expect Block",function () {
 <br>
 
 
-<li> ()toBe : تقریبا مشابه ()toEqual است با این تفاوت که تایپ دیتا نیز باید برابر باشد. یعنی 
+<li>تابع ()toBe : تقریبا مشابه ()toEqual است با این تفاوت که تایپ دیتا نیز باید برابر باشد. یعنی 
 ‘10 ‘برابر با 10 int نیست ) در واقع برابر با عملگر مقایسه ای === است.(</li>
 <br>
 
 
-<li> ()ToBeTruthy و ()toBeFalsy : برای چک کردن مقادیر Boolean استفاه میشود:</li>
+<li>تابع ()ToBeTruthy و ()toBeFalsy : برای چک کردن مقادیر Boolean استفاه میشود:</li>
 <br>
 <div dir="ltr">
 
@@ -126,7 +126,7 @@ describe("Different Methods of Expect Block",function () {
 </div>
 <br>
 
-<li>()toContain : بررسی وجود یا عدم وجود یک عضو در آرایه</li>
+<li>تابع ()toContain : بررسی وجود یا عدم وجود یک عضو در آرایه</li>
 <br>
 <div dir="ltr">
 
@@ -140,7 +140,7 @@ describe("Different Methods of Expect Block",function () {
 </div>
 <br>
 
-<li> ()toBeCloseTo : برای سنجش وجود مقدار تست در یک بازه یا به عبارتی نزدیک بودن آن با 
+<li>تابع ()toBeCloseTo : برای سنجش وجود مقدار تست در یک بازه یا به عبارتی نزدیک بودن آن با 
 مقدار مورد انتظار با یک میزان خطای قابل قبول است. نمونه زیر نزدیک بودن عدد به ۱۲ را با 
 خطای ۱ چک میکند:</li>
 <br>
@@ -156,7 +156,7 @@ describe("Different Methods of Expect Block", function () {
 </div>
 <br>
 
-<li>()ToMatch : برای چک کردن تساوی رشته های کاراکتری )String )ها بکار میرود. دقت کنید حتما باید 
+<li>تابع ()ToMatch : برای چک کردن تساوی رشته های کاراکتری )String )ها بکار میرود. دقت کنید حتما باید 
 مقدار مورد انتظار بین دو / قرار بگیرد:</li>
 <br>
 <div dir="ltr">
@@ -172,7 +172,7 @@ describe("Different Methods of Expect Block",function () {
 <br>
 
 
-<li> ()toBeDefined و ()toBeUndefined : چک میکند که آیا متغیر قبال در این کد تعریف شده 
+<li>تابع ()toBeDefined و ()toBeUndefined : چک میکند که آیا متغیر قبال در این کد تعریف شده 
 است یا نه:</li>
 <br>
 <div dir="ltr">
@@ -189,7 +189,7 @@ describe("Different Methods of Expect Block",function () {
 <br>
 
 
-<li>()toBeNull : برای بررسی تهی بودن یک متغیر:</li>
+<li>تابع ()toBeNull : برای بررسی تهی بودن یک متغیر:</li>
 <br>
 <div dir="ltr">
 
@@ -205,7 +205,7 @@ describe("Different Methods of Expect Block",function () {
 <br>
 
 
-<li>()toBeGreaterThan و ()toBeLessThan : بررسی نامساوی ها:</li>
+<li>تابع ()toBeGreaterThan و ()toBeLessThan : بررسی نامساوی ها:</li>
 <br>
 <div dir="ltr">
 
