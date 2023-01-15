@@ -37,19 +37,24 @@ Jasmine برپایه ی رفتار توسعه محور (Behavior Driven Developm
 <li>فایل unzip شده را به پروژه خودتان اضافه کنید. مانند زیر:</li>
 <br>
 <img src="./images/2023-01-14_22-40-49.png" style="display: block;padding:5px; auto;padding-top:10px; width: 30%; margin-left: auto;margin-right: auto;">
-
+<br>
 
 </ol>
 
 
 <h2>اماده سازی jasmine:</h2>
+
 <br>
+
 فایل های زیر spec و src ، دمو های یاسمین هستند؛ آن ها را پاک کنید. (همچنین لازم است رفرنس های آن ها را از specrunner.html پاک کنید)
+
 <br>
+
 <img src="./images/2023-01-14_22-54-48.png" style="display: block;padding:5px; auto;padding-top:10px; width: 30%; margin-left: auto;margin-right: auto;">
 
 
 <br>
+
 داخل فولدر spec ، یک فایل جاوااسکریپت برای نوشتن تست کیس ها بسازید.
 <br>
 در انتها آدرس هر دو فایل تست و کد جاوااسکریپت را به صورت زیر به SpecRunner.html اضافه کنید:
