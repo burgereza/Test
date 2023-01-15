@@ -239,6 +239,29 @@ describe("Different Methods of Expect Block",function () {
 <br>
 
 </ul>
+شما همچنین میتوانید matcher دلخواه خودتان را بسازید و به یاسمین خود اضافه کنید:
+
+<br>
+<div dir="ltr">
+
+``` js
+jasmine.addMatchers ({ 
+         validateAge: function() { 
+            Return {    
+               compare: function(actual,expected) {
+                  var result = {}; 
+                  result.pass = (actual > = 13 && actual < = 19);
+                  result.message = 'sorry u are not a teen ';
+                  return result; 
+               }   
+            };   
+         }    
+      }); 
+```
+</div>
+
+
+<br>
 
 <h3>توابع beforeEach() و afterEach()</h3>
  این توابع با اضافه شدن به بلاک describe قبل از اجرای هر بلاک it یکبار اجرا میشوند. به مال زیر دقت کنید:
