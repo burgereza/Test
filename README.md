@@ -98,7 +98,7 @@ describe("Adding single number ",function () {
 
 <ul>
 
-<li>تابع ()toEqual.not : بررسی مساوری نبودن</li>
+<li>تابع ()toEqual.not : بررسی مساوی نبودن</li>
 <br>
 <div dir="ltr">
 
@@ -115,6 +115,18 @@ describe("Different Methods of Expect Block",function () {
 
 <li>تابع ()toBe : تقریبا مشابه ()toEqual است با این تفاوت که تایپ دیتا نیز باید برابر باشد. یعنی 
 ‘10 ‘برابر با 10 int نیست ) در واقع برابر با عملگر مقایسه ای === است.(</li>
+<br>
+<div dir="ltr">
+
+``` js
+describe("Different Methods of Expect Block",function () {  
+
+   it("The Example of toBe() method",function () { 
+      expect(cal.numbr).toBe(10);     
+   });
+});
+```
+</div>
 <br>
 
 
