@@ -239,6 +239,37 @@ describe("Different Methods of Expect Block",function () {
 <br>
 
 </ul>
+
+<h3>توابع beforeEach() و afterEach()</h3>
+ این توابع با اضافه شدن به بلاک describe قبل از اجرای هر بلاک it یکبار اجرا میشوند. به مال زیر دقت کنید:
+
+<br>
+
+<div dir="ltr">
+
+``` js
+let year = 2023 
+describe("get year",function () { 
+   
+   beforeEach(()=> {
+        year += 1;
+   })
+
+   it("should be next year", function () {
+      expect(year).toBe(2024);
+   });
+
+   it("should be next year", function () {
+      expect(year).toBe(2024);
+   });
+
+});
+```
+</div>
+<br>
+در اینجا تست اول پاس و تست دوم فیل میشود چون قبل از اجرای تست دوم مقدار year برای بار دوم یک واحد زیاد شده و حالا برابر با 2025 است.
+
+
 <br>
 <br>
 <br>
