@@ -272,12 +272,58 @@ describe("get year",function () {
 
 
 <br>
+<h3>بلاک های Suite تو در تو (Nested Suits)</h3>
 <br>
+میتوان بلاک های Describe را به شکل زیر تو در تو تعریف کرد:
 <br>
-<br>
-<br>
+<div dir="ltr">
+
+``` js
+describe("nested",function() { 
+   
+   // Starting of first suite block  
+   // First block    
+	
+   describe("Retaining values ",function () {
+   
+      //test case:1    
+      it ("Should retain the current value of all time", function () { 
+         expect(nested.currentVal).toBeDefined();   
+         expect(nested.currentVal).toEqual(0);   
+      });    
+   }); //end of the suite block   
+
+   //second suite block 
+   describe("Adding single number ",function () {     
+   
+      //test case:2 
+      it("should add numbers",function() { 
+         expect(nested.add(5)).toEqual(5); 
+         expect(nested.add(5)).toEqual(10); 
+      });         
+   }); //end of the suite block  
+
+   //third suite block 
+   describe("Adding Different Numbers",function () {  
+   
+      //test case:3 
+      it("Should add any number of numbers",function() {  
+         expect(nested.addAny(1,2,3)).toEqual(6);  
+      });    
+   }); //end of the suite block 
+});
+```
+</div>
 <br>
 
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <h3>گردآورندگان:</h3>
 <ul>
