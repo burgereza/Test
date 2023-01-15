@@ -37,7 +37,7 @@ Jasmine برپایه ی رفتار توسعه محور (Behavior Driven Developm
 <br>
 <li>فایل unzip شده را به پروژه خودتان اضافه کنید. مانند زیر:</li>
 <br>
-<img dir="ltr" src="./images/2023-01-14_22-40-49.png" style="display: block;padding:5px; auto;padding-top:10px; width: 30%; margin-left: auto;margin-right: auto;">
+<img dir="ltr" src="./images/2023-01-14_22-40-49.png" style="display: block;padding:5px; auto;padding-top:10px; width: 30%; margin-left: auto;margin-right: 150px;">
 <br>
 
 </ol>
@@ -51,7 +51,7 @@ Jasmine برپایه ی رفتار توسعه محور (Behavior Driven Developm
 
 <br>
 
-<img dir="ltr" src="./images/2023-01-14_22-54-48.png" style="display: block;padding:5px; auto;padding-top:10px; width: 30%; margin-left: auto;margin-right: auto;">
+<img dir="ltr" src="./images/2023-01-14_22-54-48.png" style="display: block;padding:5px; auto;padding-top:10px; width: 30%; margin-left: auto;margin-right: 150px;">
 
 <br>
 <br>
@@ -66,7 +66,7 @@ Jasmine برپایه ی رفتار توسعه محور (Behavior Driven Developm
 
 <br>
 
-<img dir="ltr" src="./images/2023-01-15_21-00-42.png" style="display: block;padding:5px; auto;padding-top:10px; width: 80%; margin-left: auto;margin-right: auto;">
+<img dir="ltr" src="./images/2023-01-15_21-00-42.png" style="display: block;padding:5px; auto;padding-top:10px; width: 80%; margin-left: auto;margin-right: 50px;">
 
 <br>
 <br>
