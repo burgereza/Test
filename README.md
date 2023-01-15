@@ -52,7 +52,8 @@ Jasmine برپایه ی رفتار توسعه محور (Behavior Driven Developm
 
 <img src="./images/2023-01-14_22-54-48.png" style="display: block;padding:5px; auto;padding-top:10px; width: 30%; margin-left: auto;margin-right: auto;">
 
-
+<br>
+<br>
 <br>
 
 داخل فولدر spec ، یک فایل جاوااسکریپت برای نوشتن تست کیس ها بسازید.
@@ -92,6 +93,7 @@ describe("Adding single number ",function () {
 <ul>
 
 <li> ()toEqual.not : بررسی مساوری نبودن</li>
+<br>
 <div dir="ltr">
 
 ``` js
@@ -102,13 +104,16 @@ describe("Different Methods of Expect Block",function () {
 });
 ```
 </div>
+<br>
 
 
 <li> ()toBe : تقریبا مشابه ()toEqual است با این تفاوت که تایپ دیتا نیز باید برابر باشد. یعنی 
 ‘10 ‘برابر با 10 int نیست ) در واقع برابر با عملگر مقایسه ای === است.(</li>
+<br>
 
 
 <li> ()ToBeTruthy و ()toBeFalsy : برای چک کردن مقادیر Boolean استفاه میشود:</li>
+<br>
 <div dir="ltr">
 
 ``` js
@@ -119,8 +124,10 @@ describe("Different Methods of Expect Block",function () {
 });
 ```
 </div>
+<br>
 
 <li>()toContain : بررسی وجود یا عدم وجود یک عضو در آرایه</li>
+<br>
 <div dir="ltr">
 
 ``` js
@@ -131,10 +138,12 @@ describe("Different Methods of Expect Block",function () {
 });
 ```
 </div>
+<br>
 
 <li> ()toBeCloseTo : برای سنجش وجود مقدار تست در یک بازه یا به عبارتی نزدیک بودن آن با 
 مقدار مورد انتظار با یک میزان خطای قابل قبول است. نمونه زیر نزدیک بودن عدد به ۱۲ را با 
 خطای ۱ چک میکند:</li>
+<br>
 <div dir="ltr">
 
 ``` js
@@ -145,9 +154,11 @@ describe("Different Methods of Expect Block", function () {
 });
 ```
 </div>
+<br>
 
 <li>()ToMatch : برای چک کردن تساوی رشته های کاراکتری )String )ها بکار میرود. دقت کنید حتما باید 
 مقدار مورد انتظار بین دو / قرار بگیرد:</li>
+<br>
 <div dir="ltr">
 
 ``` js
@@ -158,10 +169,12 @@ describe("Different Methods of Expect Block",function () {
 });
 ```
 </div>
+<br>
 
 
 <li> ()toBeDefined و ()toBeUndefined : چک میکند که آیا متغیر قبال در این کد تعریف شده 
 است یا نه:</li>
+<br>
 <div dir="ltr">
 
 ``` js
@@ -173,9 +186,11 @@ describe("Different Methods of Expect Block",function () {
 });
 ```
 </div>
+<br>
 
 
 <li>()toBeNull : برای بررسی تهی بودن یک متغیر:</li>
+<br>
 <div dir="ltr">
 
 ``` js
@@ -187,9 +202,11 @@ describe("Different Methods of Expect Block",function () {
 });
 ```
 </div>
+<br>
 
 
 <li>()toBeGreaterThan و ()toBeLessThan : بررسی نامساوی ها:</li>
+<br>
 <div dir="ltr">
 
 ``` js
@@ -201,13 +218,13 @@ describe("Different Methods of Expect Block",function () {
 });
 ```
 </div>
+<br>
 
 </ul>
 <br>
 <br>
 <br>
-<br>
-<br>
+
 
 <h3>گردآورندگان:</h3>
 <ul>
